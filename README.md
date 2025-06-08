@@ -67,6 +67,20 @@ You must have [**MiniConda**](https://docs.anaconda.com/free/miniconda/#quick-co
 
 ---
 
+5.  **Setup the environment variables**
+
+To get started, you'll need to set up your environment variables.
+
+1.  Copy the example environment file:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+2.  Open the newly created `.env` file and add your specific credentials. For example, you will need to set your `OPENAI_API_KEY`.
+
+
+
 ## ▶️ Usage
 
 After installation, you can interact with the model. Use the following command as a template.
