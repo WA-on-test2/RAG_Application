@@ -74,12 +74,23 @@ To get started, you'll need to set up your environment variables.
 1.  Copy the example environment file:
 
     ```bash
+
     cp .env.example .env
     ```
 
 2.  Open the newly created `.env` file and add your specific credentials. For example, you will need to set your `OPENAI_API_KEY`.
 
 
+---
+
+6.  **Command to run the FASTAPI as a Server**
+
+  ```bash
+       uvicorn main:app --reload --host 0.0.0.0 --port 5000
+ ```
+
+
+---
 
 ## ▶️ Usage
 
@@ -89,20 +100,21 @@ After installation, you can interact with the model. Use the following command a
 
 ```bash
 python main.py --question "What are the core components of a RAG system?"
-
+```
 📂 Project Structure
-
+```bash
 mini-rag/
 ├── data/                 # Sample data/knowledge base
 ├── src/                  # Source code for the RAG pipeline
 ├── main.py               # Main script to run the application
 ├── requirements.txt      # Project dependencies
 └── README.md
-
+```
 🤝 Contributing
-
+```bash
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+```
 📄 License
 
