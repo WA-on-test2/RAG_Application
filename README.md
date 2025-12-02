@@ -3,11 +3,11 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 
-`rag` is a lightweight implementation of the **Retrieval-Augmented Generation (RAG)** model for question answering. Its primary goal is to provide a clear and concise example of how RAG works, stripping away complexities to focus on the core concepts.
+`RAG` is a lightweight implementation of the **Retrieval-Augmented Generation (RAG)** model for question answering. Its primary goal is to provide a clear and concise example of how RAG works, stripping away complexities to focus on the core concepts.
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 
 - [About The Project](#about-the-project)
 - [Getting Started](#getting-started)
@@ -20,7 +20,7 @@
 
 ---
 
-## ✨ About The Project
+##  About The Project
 
 Retrieval-Augmented Generation (RAG) is a technique that enhances Large Language Models (LLMs) by grounding them in external knowledge. Instead of relying solely on its training data, a RAG model first retrieves relevant documents from a knowledge base and then uses that information to generate a more accurate and contextually aware answer.
 
@@ -50,13 +50,13 @@ You must have [**MiniConda**](https://docs.anaconda.com/free/miniconda/#quick-co
 2.  **Create a Conda Environment**
     This command creates a new virtual environment with the required Python version.
     ```bash
-    conda create -n mini-rag python=3.8 -y
+    conda create -n RAG_envi python=3.8 -y
     ```
 
 3.  **Activate the Environment**
     You must activate the environment before installing dependencies and running the code.
     ```bash
-    conda activate mini-rag
+    conda activate RAG_envi
     ```
 
 4.  **Install Required Packages**
@@ -83,7 +83,7 @@ To get started, you'll need to set up your environment variables.
 
 ---
 
-6.  **Command to run the FASTAPI as a Server**
+6.  **Command to run the FASTAPI as a Server via Unicorn**
 
   ```bash
        uvicorn main:app --reload --host 0.0.0.0 --port 5000
