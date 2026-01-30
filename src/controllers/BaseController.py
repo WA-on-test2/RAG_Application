@@ -1,0 +1,17 @@
+'''
+used the base controller to get dir path 
+'''
+
+from helpers.config import get_settings, Settings
+import os
+import random 
+import string
+class BaseController:
+    def __init__(self):
+        self.app_settings: Settings = get_settings()
+        self.base_dir=os.path.dirname(os.path.dirname(__file__))
+        #self.file_dir=self.base_dir +"/"+"assets/files/" to handle win/linux variations
+        self.files_dir=os.path.join(self.base_dir, "assets/files")
+    
+    def get_random_string(self, length:int=10):
+        return ''.join(random.choices(string.ascii_lowercase + string.digits, k=length))
