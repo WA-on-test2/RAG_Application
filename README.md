@@ -118,3 +118,4 @@ Please fork the repo and create a pull request. You can also simply open an issu
 ```
 📄 License
 
+#Python: Select Interpreter
