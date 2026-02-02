@@ -43,8 +43,8 @@ You must have [**MiniConda**](https://docs.anaconda.com/free/miniconda/#quick-co
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/mini-rag.git](https://github.com/your-username/mini-rag.git)
-    cd mini-rag
+    git clone https://github.com/WA-on-test2/RAG_Application.git
+    cd RAG_Application
     ```
 
 2.  **Create a Conda Environment**
@@ -103,7 +103,7 @@ python main.py --question "What are the core components of a RAG system?"
 ```
 📂 Project Structure
 ```bash
-mini-rag/
+Rag_Application/
 ├── data/                 # Sample data/knowledge base
 ├── src/                  # Source code for the RAG pipeline
 ├── main.py               # Main script to run the application
@@ -117,5 +117,6 @@ Contributions are what make the open-source community such an amazing place to l
 Please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 ```
 📄 License
+
 
 #Python: Select Interpreter
